@@ -1,0 +1,23 @@
+pipeline {
+    agent any 
+    stages {
+        stage('melluzzoo') { 
+            steps {
+               sh " pwd"
+            }
+        }
+        stage('Dog2') { 
+            steps {
+               sh " echo DOG"
+               sh "pwd"
+               
+            }
+        }
+        stage('MOUUUSE') { 
+            steps {
+                sh " pwd"
+               sh "echo Mouse-----end"
+            }
+        }
+    }
+}
