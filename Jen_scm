@@ -6,9 +6,9 @@ pipeline {
                sh " pwd"
             }
         }
-        stage('Cat-as-print screen') { 
+        stage('BRANCH ......') { 
             steps {
-               sh " cat text3"
+               sh " echo THIS IS A BRANCH ! !!"
                sh "pwd"
                
             }
