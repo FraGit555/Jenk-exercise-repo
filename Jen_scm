@@ -6,9 +6,9 @@ pipeline {
                sh " pwd"
             }
         }
-        stage('Cat-as-print screen') { 
+        stage('Dog2') { 
             steps {
-               sh " cat text3"
+               sh " echo DOG"
                sh "pwd"
                
             }
